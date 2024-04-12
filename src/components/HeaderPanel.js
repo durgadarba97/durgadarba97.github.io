@@ -50,6 +50,7 @@ const HeaderPanel = () => {
                 backgroundColor: scroll ? "transparent" : "#2a2a2b"
             }}>
                 <Toolbar style={{flexDirection:"row", justifyContent:"center", alignText:"center"}}>
+                    console.log("creating a simple header")
                     <Typography variant="h5" className= {styles.typo} style= {{
                         color: scroll ? '#2a2a2b' : 'white' 
                     }}> Durga Darba : </Typography>
