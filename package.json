@@ -16,6 +16,9 @@
     "react-scripts": "^5.0.1",
     "reactjs-typing-effect": "^1.0.8"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
