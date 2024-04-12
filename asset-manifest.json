@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f855e6bc.css",
+    "main.js": "/static/js/main.930e3eb6.js",
+    "static/media/meatabeach.jpeg": "/static/media/meatabeach.d130a4dda503c36ca455.jpeg",
+    "static/media/me.jpeg": "/static/media/me.31ba11102b32cd521249.jpeg",
+    "static/media/dashcamgui.png": "/static/media/dashcamgui.65dc4c8e3c7feb5a962e.png",
+    "static/media/DurgaDarbaResume.pdf": "/static/media/DurgaDarbaResume.f483a625d63103b826da.pdf",
+    "static/media/shell.gif": "/static/media/shell.0546222cccafe1cea25f.gif",
+    "static/media/snake.gif": "/static/media/snake.257a30545bc4b675d864.gif",
+    "static/media/imagecomp.png": "/static/media/imagecomp.d68bc4f5bba6e1171b86.png",
+    "static/media/cactus2.gif": "/static/media/cactus2.0a3a2e2c557cf320aac7.gif",
+    "static/media/fib.jpeg": "/static/media/fib.d452b56012f3c34b4b3c.jpeg",
+    "static/media/architecture.jpg": "/static/media/architecture.9d7e4c3c20f754d93800.jpg",
+    "index.html": "/index.html",
+    "main.f855e6bc.css.map": "/static/css/main.f855e6bc.css.map",
+    "main.930e3eb6.js.map": "/static/js/main.930e3eb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.930e3eb6.js"
+  ]
+}
