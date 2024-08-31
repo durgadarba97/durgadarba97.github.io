@@ -165,6 +165,7 @@ function animate() {
         boid.flock(boids);
         boid.update();
         boid.draw(ctx);
+        console.log(boids); 
     }
 
     requestAnimationFrame(animate);
