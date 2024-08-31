@@ -57,30 +57,6 @@ class Boid {
         }
         return steering;
     }
-    align(boids) {
-    const perceptionRadius = 50;
-    let steering = { x: 0, y: 0 }; // Change to let
-    let total = 0;
-
-    for (const other of boids) {
-        const d = this.distance(other.position, this.position);
-        if (other !== this && d < perceptionRadius) {
-            steering.x += other.velocity.x;
-            steering.y += other.velocity.y;
-            total++;
-        }
-    }
-
-    if (total > 0) {
-        steering.x /= total;
-        steering.y /= total;
-        steering = this.limit(steering, this.maxSpeed);
-        steering.x -= this.velocity.x;
-        steering.y -= this.velocity.y;
-        steering = this.limit(steering, this.maxForce);
-    }
-    return steering;
-}
 
 
     cohesion(boids) {
